@@ -1,0 +1,28 @@
+.data-container {
+    padding: 5px;
+    background-color: #282c34;
+    color: #fff;
+    border-radius: 8px;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #61dafb;
+    margin-bottom: 20px;
+  }
+  
+  h2, h3 {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

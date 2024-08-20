@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/home';
 import Profile from './pages/contacts.'; // Corrected import path for Profile component
 import About from './pages/about_us';
-import AdminAcc from './AdminAccLogin/adminAccLogin';
+import AdminAcc from './Admin_Acc/adminSettings_Acc';
 const TextBox = () => (
   <div className="textBox">
     {/* Content for the text box */}

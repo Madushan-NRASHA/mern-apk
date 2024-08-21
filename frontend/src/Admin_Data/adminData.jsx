@@ -1,9 +1,12 @@
 import React from 'react';
 import './Data.css';
 import GitImg from '../assets/git.png'
+// import {useNavigate} from "react-router-dom"
 function Data(props) {
   const { _id, projectName, LangName, GitLink, CreateDate } = props.user || {};
-
+  
+    
+  
   return (
     <div className="data-container">
     

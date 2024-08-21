@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'; // Import your CSS file
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/home';
-import Profile from './pages/contacts.'; // Corrected import path for Profile component
+import Profile from './pages/myWork'; // Corrected import path for Profile component
 import About from './pages/about_us';
 import AdminAcc from './Admin_Acc/adminSettings_Acc';
 import AddNew_data from './Add_data/addNew_data';

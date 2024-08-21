@@ -7,6 +7,7 @@ import About from './pages/about_us';
 import AdminAcc from './Admin_Acc/adminSettings_Acc';
 import AddNew_data from './Add_data/addNew_data';
 import ShowData from './ShowAdmin_data/showAdminData'
+import Contact_us from './Contactus/contactus'
 const TextBox = () => (
   <div className="textBox">
     {/* Content for the text box */}
@@ -49,6 +50,7 @@ function App() {
           <Route path="/userAcc" element={<AdminAcc/>} />
           <Route path='/Add_project'  element={<AddNew_data/>} />
           <Route path='/Show_projects'  element={<ShowData/>} />
+          <Route path='/contact-us' element={<Contact_us/>}/>
         </Routes>
       </div>
     </BrowserRouter>

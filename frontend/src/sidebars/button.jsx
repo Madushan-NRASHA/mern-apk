@@ -4,6 +4,7 @@ import '../App.css'; // Make sure to import your CSS file
 const AnimatedLink = ({ children }) => {
   return (
     <>
+    
     <div className="animated-link">
 
       <span></span>

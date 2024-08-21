@@ -5,6 +5,8 @@ import Home from './pages/home';
 import Profile from './pages/contacts.'; // Corrected import path for Profile component
 import About from './pages/about_us';
 import AdminAcc from './Admin_Acc/adminSettings_Acc';
+import AddNew_data from './Add_data/addNew_data';
+import ShowData from './ShowAdmin_data/showAdminData'
 const TextBox = () => (
   <div className="textBox">
     {/* Content for the text box */}
@@ -45,6 +47,8 @@ function App() {
           <Route path="/about" element={<About />} /> {/* Corrected path for About */}
           <Route path="/profile" element={<Profile />} /> {/* Corrected path for My Works */}
           <Route path="/userAcc" element={<AdminAcc/>} />
+          <Route path='/Add_project'  element={<AddNew_data/>} />
+          <Route path='/Show_projects'  element={<ShowData/>} />
         </Routes>
       </div>
     </BrowserRouter>

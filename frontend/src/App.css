@@ -865,3 +865,7 @@ body {
   top: 10px;
  
 }
+.adminData-pos{
+  position: relative;
+  top: 70px;
+}
